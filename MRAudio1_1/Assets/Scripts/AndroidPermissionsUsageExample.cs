@@ -1,4 +1,10 @@
-﻿using System.Collections;
+      // Help needed! How to reduce latency? Thanks Thanks Thanks :) 
+     
+      // This is the main function. When the user is ready to record MicInput() will be called.
+     // Summary: start recording audio, and play it back using an AudioSource component.
+    // Current Issue: Small latency between capturing the audio and playing it back.
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
