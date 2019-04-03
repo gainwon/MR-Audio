@@ -1,8 +1,8 @@
-      // Help needed! How to reduce latency? Thanks Thanks Thanks :) 
+// Help needed! How to reduce latency? Thanks Thanks Thanks :) 
      
-      // This is the main function. When the user is ready to record MicInput() will be called.
-     // Summary: start recording audio, and play it back using an AudioSource component.
-    // Current Issue: Small latency between capturing the audio and playing it back.
+// This is the main function. When the user is ready to record MicInput() will be called.
+// Summary: start recording audio, and play it back using an AudioSource component.
+// Current Issue: Small latency between capturing the audio and playing it back.
 
 using System.Collections;
 using UnityEngine;
@@ -13,6 +13,7 @@ public class AndroidPermissionsUsageExample : MonoBehaviour
 
     public Text text;
      
+    // *** VVV *** //
     public void MicInput()
     {
         text.text = "Start Rec..";
