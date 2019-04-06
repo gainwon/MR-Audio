@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Plugins/DigitsSystemVolume/Samples/Scenes/SystemVolumeControl.unity
+    guid: 1fa7bcba765dba64e98f982b9dd1ad70
   m_configObjects: {}
